@@ -1,4 +1,4 @@
-## **CNN_SNAPSHOT
+### CNN_SNAPSHOT
 
 Code for our paper Identification of Potential Aldose Reductase Inhibitors using Convolutional Neural Networks based Insilico Screening
 
