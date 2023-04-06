@@ -7,7 +7,6 @@ Code for our paper: Identification of Potential Aldose Reductase Inhibitors usin
 - cd CNN_SNAPSHOT <br>
 - conda env create -f environment.yaml -n CNN_SNAPSHOT <br>
 - conda activate CNN_SNAPSHOT <br>
-- python setup.py install <br>
 
 #### Step 2: Generate folders
 For generating folders for training/test set actives,inactives and putative inactives, run **python generate_folders.py** file
@@ -47,9 +46,12 @@ Run:<br>
 ```
 python smiles_to_pdb.py --ifile [InputSmilesfile] --ofile [pdbfilelocation] --mfile [MaybridgeSmilesfile] --mofile [MaybridgepdbfilePath]
 ```
+Use input as: <br>
+data\Train\train_active.csv, data\Train\train_inactive.csv, data\Train\train_PInactive.csv <br>
+data\Test\test_active.csv, data\Test\test_inactive.csv, data\Test\test_PInactive.csv  
 
 #### Step 4: Convert PDB to PNG (Snapshots of 3D rotated molecules)
-Create PNG files for all sets of training sets active, inactive and putative inactives for both training and testing set 
+Create PNG files for all sets of training\test sets active, inactive and putative inactives. Also generate for screening library  
 Run:<br>
 ```
 python pdb_to_png.py --ifile [Train_Test_pdbfilelocation] --ofile [Train_Test_ImageFileOutput] --mfile [Maybridge_pdbfilelocation] --mofile [Maybridge_ImageFileOutputPath]
