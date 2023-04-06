@@ -1,0 +1,3 @@
+Unzip the Train_PDBfiles.zip and Test_PDBfiles.zip file and use python pdb_to_png.py file to convert it to PNG images.
+Then keep them to their respective folders for training/test set actives, inactives an putative inactives.
+Also do it for Maybridge PDB files and convert them
