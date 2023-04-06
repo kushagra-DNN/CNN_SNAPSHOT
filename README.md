@@ -1,6 +1,6 @@
 # CNN_SNAPSHOT
 
-Code for our paper: Identification of Potential Aldose Reductase Inhibitors using Convolutional Neural Networks based Insilico Screening
+Code for our paper: **Identification of Potential Aldose Reductase Inhibitors using Convolutional Neural Networks based Insilico Screening**
 
 ### Step 1: Installation
 - git clone https://github.com/kushagra-DNN/CNN_SNAPSHOT.git <br>
